@@ -1,6 +1,6 @@
 total = 0
 max = 0
-f1 = open(data.txt)
+f1 = open("data.txt", "r")
 f1list = []
 for line in f1:
     list =[]
@@ -27,8 +27,8 @@ print(f"Total number of values: {total}")
 print("\n Average value of each row: ")
 for i in range(lend(rowavg)):
     print (f"Row {i + 1}: {rowavg[i]}")
-    for column in range(len(f1list[0]))
-    sum = 0
+    for column in range(len(f1list[0])):
+        sum = 0
     for row in range(len(f1list)):
         sum += f1list[row][column]
         count += 1
