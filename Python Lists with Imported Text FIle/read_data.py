@@ -30,7 +30,7 @@ for i in range(len(rowavg)):
     for column in range(len(f1list[0])):
         sum = 0
     for row in range(len(f1list)):
-        sum += f1list[row][column]
+        sum += f1list[row][i]
         count += 1
     columnsum.append(sum)
 
