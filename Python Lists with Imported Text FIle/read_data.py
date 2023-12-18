@@ -1,6 +1,6 @@
 total = 0
 max = 0
-f1 = open("data.txt", "r")
+f1 = open("/workspaces/AP-CSP/Python Lists with Imported Text FIle/data.txt", "r")
 f1list = []
 for line in f1:
     list =[]
@@ -25,7 +25,7 @@ for row in f1list:
 print(f"Total number of values: {total}")
 
 print("\n Average value of each row: ")
-for i in range(lend(rowavg)):
+for i in range(len(rowavg)):
     print (f"Row {i + 1}: {rowavg[i]}")
     for column in range(len(f1list[0])):
         sum = 0
